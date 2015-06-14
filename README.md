@@ -28,7 +28,7 @@ Criar um id ou logar com o id existente (lembrando que o id é e-mail)
 ![os x mavericks - vmware player non-commercial use only _009](https://cloud.githubusercontent.com/assets/3680556/8146439/261a1e4a-120e-11e5-9356-62ddb17aef0d.png)
 
 # Alterar idioma e Fuso Horário
-1. Em **system preferences** ir em **Language & Region** e adicionar idioma **Português (Brasil)**. Aproveitar para setar formato do relógio como 24 horas. Reiniciar quando solicitado. 
+1. Em **system preferences** ir em **Language & Region** e adicionar idioma **Português (Brasil)**. Aproveitar para setar formato do relógio como 24 horas. Em seguida fechar a janela para salvar. Reiniciar quando solicitado. 
 2. Clicar em cima do relógio e **Abrir as preferências Data e Hora**. Ir na aba **fuso horário** e colocar **Sao Paulo** e deixar o mac localizar. Ir na aba **Relógio** e marcar **Exibir a hora com segundos** Em seguida fechar a janela para salvar.
 
 # Instalar git
@@ -41,5 +41,5 @@ git clone https://github.com/franciscocpg/install-os-maverick-vmware.git
 ```
 2. Abrir no finder, descompactar o arquivo [SWTCHRX441 (Altera resolução mac OS)/SwitchResX 4.4.1/SwitchResX4.zip](https://github.com/franciscocpg/install-os-maverick-vmware/blob/master/SWTCHRX441%20(Altera%20resolu%C3%A7%C3%A3o%20mac%20OS)/SwitchResX%204.4.1/SwitchResX4.zip) e mandar Abrir o arquivo SwitchResX.prefPane para instalar SwitchResX.
 3. Registrar o programa utilizando key.rtf
-4. Alterar a resolução de acordo com o tamanho do monitor.
+4. Alterar a resolução de acordo com o tamanho do monitor. Fechar a janela e salvar.
 ![os x mavericks - vmware player non-commercial use only _012](https://cloud.githubusercontent.com/assets/3680556/8146530/10242576-1214-11e5-8487-0723da5368e6.png)
