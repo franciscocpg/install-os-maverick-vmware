@@ -26,3 +26,7 @@ Criar um id ou logar com o id existente (lembrando que o id é e-mail)
 ![virtual machine settings_001](https://cloud.githubusercontent.com/assets/3680556/8146426/1c7a2386-120d-11e5-80da-8b32258a2452.png)
 2. Após salvar, abrir "Install VMWare tools" e seguir passo a passo, reiniciando no final
 ![os x mavericks - vmware player non-commercial use only _009](https://cloud.githubusercontent.com/assets/3680556/8146439/261a1e4a-120e-11e5-9356-62ddb17aef0d.png)
+
+# Alterar idioma e Fuso Horário
+1. Em **system preferences** ir em **Language & Region** e adicionar idioma **Português (Brasil)**. Aproveitar para setar formato do relógio como 24 horas. Reiniciar quando solicitado. 
+2. Clicar em cima do relógio e **Abrir as preferências Data e Hora**. Ir na aba fuso horário e colocar **Sao Paulo** e deixar o mac localizar. Em seguida fechar a janela para salvar.
