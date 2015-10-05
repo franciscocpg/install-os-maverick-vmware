@@ -1,9 +1,17 @@
-# install-os-maverick-vmware
+# Pré-requisitos
+* Ter VMware Player instalado
 
-1. Download **OS X Mavericks 10.9 Retail VMware Image.7z** (Serão descompactados 12gb).
-2. Extrair **OS X Mavericks 10.9 Retail VMware Image.7z**
+# install-unlock-vmware-player
+
+1. Download **OS X Mavericks 10.9 Retail VMware Image.7z**
+2. Extrair **OS X Mavericks 10.9 Retail VMware Image.7z** (Serão descompactados 12gb).
 3. Executar [unlock-all-v130/linux/install.sh](unlock-all-v130/linux/install.sh)
-3. Abrir **OS X Mavericks/OS X Mavericks.vmdk** no VMWare Player
+```bash
+cd unlock-all-v130/linux
+./install.sh
+```
+# install-os-maverick-vmware
+4. Abrir **OS X Mavericks/OS X Mavericks.vmdk** no VMWare Player
 4. Configuração utilizada
 ![virtual machine settings_007](https://cloud.githubusercontent.com/assets/3680556/8146356/164f9aca-120a-11e5-9488-1d9e93df3ec2.png)
 
