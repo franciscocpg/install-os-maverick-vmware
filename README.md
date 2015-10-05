@@ -11,7 +11,7 @@ cd unlock-all-v130/linux
 ./install.sh
 ```
 # install-os-maverick-vmware
-4. Abrir **OS X Mavericks/OS X Mavericks.vmdk** no VMWare Player
+4. Abrir **OS X Mavericks/OS X Mavericks.vmx** no VMWare Player
 4. Configuração utilizada
 ![virtual machine settings_007](https://cloud.githubusercontent.com/assets/3680556/8146356/164f9aca-120a-11e5-9488-1d9e93df3ec2.png)
 
