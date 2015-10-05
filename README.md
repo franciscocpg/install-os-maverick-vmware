@@ -1,5 +1,5 @@
 # Pré-requisitos
-* Ter VMware Player instalado
+* Ter [VMware Player instalado Versão 6.0.5](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0|PLAYER-605|product_downloads) (Testado na versão 64 bits para linux)
 
 # install-unlock-vmware-player
 
