@@ -1,5 +1,9 @@
 # Pré-requisitos
 * Ter [VMware Player instalado Versão 6.0.5](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0|PLAYER-605|product_downloads) (Testado na versão 64 bits para linux)
+* Caso dê um erro de compilação de kernel após a instalação desse produto, baixe o arquivo [vmnet.tar](vmware-lib-wrapper/vmnet.tar) substituindo na pasta /usr/lib/vmware/modules/source/ e tente executar novamente. O commando abaixo pode ser utilizado.
+```bash
+sudo wget https://raw.githubusercontent.com/franciscocpg/install-os-maverick-vmware/master/vmware-lib-wrapper/vmnet.tar -O /usr/lib/vmware/modules/source/vmnet.tar
+```
 
 # install-unlock-vmware-player
 
