@@ -19,7 +19,7 @@ cd unlock-all-v130/linux
 
 1. Download **OS X Mavericks 10.9 Retail VMware Image.7z**
 2. Extrair **OS X Mavericks 10.9 Retail VMware Image.7z** (Serão descompactados 12gb).
-3. Executar [unlock-all-v130/linux/install.sh](unlock-all-v130/linux/install.sh)
+3. Executar [unlocker207/lnx-install.sh](unlocker207/lnx-install.sh)
 ```bash
 cd unlocker207
 ./lnx-install.sh
