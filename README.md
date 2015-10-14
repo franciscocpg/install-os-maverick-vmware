@@ -1,4 +1,5 @@
 # Pré-requisitos
+* Ter o arquivo **OS X Mavericks 10.9 Retail VMware Image.7z**
 * Ter [VMware Player instalado Versão 6.0.5](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0|PLAYER-605|product_downloads) (Testado na versão 64 bits para linux) ou [VMware Player instalado Versão 7.1.2](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/7_0)(Testado na versão 64 bits para linux, porém apresentou muita instabilidade).
 * Para a versão 6.0.5 caso dê um erro de compilação de kernel após a instalação desse produto, baixe o arquivo [vmnet.tar](vmware-lib-wrapper/vmnet.tar) substituindo na pasta /usr/lib/vmware/modules/source/ e tente executar novamente. O comando abaixo pode ser utilizado.
 ```bash
