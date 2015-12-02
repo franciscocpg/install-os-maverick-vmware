@@ -54,8 +54,17 @@ Criar um id ou logar com o id existente (lembrando que o id é e-mail)
 1. Em **system preferences** ir em **Language & Region** e adicionar idioma **Português (Brasil)**. Aproveitar para setar formato do relógio como 24 horas. Em seguida fechar a janela para salvar. Reiniciar quando solicitado. 
 2. Clicar em cima do relógio e **Abrir as preferências Data e Hora**. Ir na aba **fuso horário** e colocar **Sao Paulo** e deixar o mac localizar. Ir na aba **Relógio** e marcar **Exibir a hora com segundos** Em seguida fechar a janela para salvar.
 
+# Instalar shared folders
+1. Fazer o procedimento normal de compartilhamento de arquivos.
+2. Abrir o finder e ir Finder -> preferências.
+3. Na aba geral, em **Mostrar estes itens na mesa**, marcar **Servidores Conectados**.
+4. Agora no desktop (ou mesa para o mac) será mostrado o **VMWare shared folders**.
+
+# Instalar homebrew
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 # Instalar git
-1. Abrir o terminal e digitar git. Clicar em **Instalar** e aguardar instalação.
+`brew install git`
 
 # Colocar resolução full
 1. Clonar esse repositório
