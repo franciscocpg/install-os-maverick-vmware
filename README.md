@@ -1,31 +1,17 @@
 # Pré-requisitos
 * Ter o arquivo **OS X Mavericks 10.9 Retail VMware Image.7z**
-* Ter [VMware Player instalado Versão 6.0.5](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0|PLAYER-605|product_downloads) (Testado na versão 64 bits para linux) ou [VMware Player instalado Versão 7.1.2](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/7_0)(Testado na versão 64 bits para linux, porém apresentou muita instabilidade).
-* Para a versão 6.0.5 caso dê um erro de compilação de kernel após a instalação desse produto, baixe os arquivos [vmnet.tar](vmware-lib-wrapper/vmnet.tar) e [vmmon.tar](vmware-lib-wrapper/vmmon.tar) substituindo na pasta /usr/lib/vmware/modules/source/ e tente executar novamente. O comando abaixo pode ser utilizado.
-```bash
-sudo wget https://raw.githubusercontent.com/franciscocpg/install-os-maverick-vmware/master/vmware-lib-wrapper/vmnet.tar -O /usr/lib/vmware/modules/source/vmnet.tar
-sudo wget https://raw.githubusercontent.com/franciscocpg/install-os-maverick-vmware/master/vmware-lib-wrapper/vmmon.tar -O /usr/lib/vmware/modules/source/vmmon.tar
-```
+* Ter [VMware Player instalado Versão 12](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0) (Testado na versão 64 bits para linux).
 
-# install-unlock-vmware-player (versão 6.0.5)
+# install-unlock-vmware-player (versão 2.0.8)
 
 1. Download **OS X Mavericks 10.9 Retail VMware Image.7z**
 2. Extrair **OS X Mavericks 10.9 Retail VMware Image.7z** (Serão descompactados 12gb).
-3. Executar [unlock-all-v130/linux/install.sh](unlock-all-v130/linux/install.sh)
+3. Executar [unlocker208/lnx-install.sh](unlocker208/lnx-install.sh)
 ```bash
-cd unlock-all-v130/linux
-./install.sh
-```
-
-# install-unlock-vmware-player (versão 7.1.2)
-
-1. Download **OS X Mavericks 10.9 Retail VMware Image.7z**
-2. Extrair **OS X Mavericks 10.9 Retail VMware Image.7z** (Serão descompactados 12gb).
-3. Executar [unlocker207/lnx-install.sh](unlocker207/lnx-install.sh)
-```bash
-cd unlocker207
+cd unlocker208
 ./lnx-install.sh
 ```
+
 # install-os-maverick-vmware
 4. Abrir **OS X Mavericks/OS X Mavericks.vmx** no VMWare Player
 4. Configuração utilizada
